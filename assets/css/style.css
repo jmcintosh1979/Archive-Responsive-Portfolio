@@ -147,7 +147,6 @@ input[type=submit]:hover {
 
     h1 {
         width: 35%;
-        font-size: 25px;
     }
 
     .container {
@@ -163,12 +162,11 @@ input[type=submit]:hover {
     }
 
     h1 {
-        width: 35%;
-        font-size: 20px;
+        width: 45%;
     }
 
     ul {
-        width: 50%;
+        width: 25%;
         padding: 15px;
     }
 
@@ -180,18 +178,18 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 640px) {
     nav {
-        width: 95%;
+        width: 100%;
+        margin-left: 0px;
     }
     h1 {
-        width: 80%;
+        width: 92%;
         margin: 0 auto;
-        font-size: 20px;
     }
 
     ul {
         float: none;
         margin: 0 auto;
-        width: 60%;
+        width: 70%;
         padding: 15px;
     }
 
@@ -204,5 +202,6 @@ input[type=submit]:hover {
     #bio-image {
         width: 90%;
         float: none;
+        margin: 0px;
     }
 }
