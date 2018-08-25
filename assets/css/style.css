@@ -136,8 +136,7 @@ input[type=submit]:hover {
 
 .container img {
     width: 250px;
-    margin-left: 50px;
-    margin-bottom: 50px;
+    margin: 10px 35px;
 }
 
 @media screen and (max-width: 980px) {
@@ -152,6 +151,10 @@ input[type=submit]:hover {
     .container {
         margin-left: 100px;
         width: 65%
+    }
+
+    .container img {
+        margin: 10px 30px;
     }
 
 }
@@ -204,4 +207,6 @@ input[type=submit]:hover {
         float: none;
         margin: 0px;
     }
+    .container img {
+        margin-left: 25px;
 }
