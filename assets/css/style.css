@@ -88,11 +88,11 @@ p {
 
 footer {
     position: fixed;
-    left: 0;
+    /* left: 0; */
     bottom: 0;
     width: 100%;
-    padding: 40px 0 5px 0;
-    margin: 0;
+    padding: 15px 0 5px 0;
+    /* margin: 0; */
     border-top: solid;
     border-color: #4aaaa5;
     border-width: 10px;
@@ -134,10 +134,44 @@ input[type=submit]:hover {
     height:200px;
 }
 
-.container img {
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    position: relative;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .text-box {
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+    background-color:  #4aaaa5;
+    color: white ;
+    width: 84.75%;
+    height: 10%;
+}
+
+.text-box h5 {
+    margin: 0;
+    padding: 2%;
+    text-align: center;
+}
+  .container img {
     width: 250px;
     margin: 10px 35px;
 }
+
+.project-images {
+    height: 250px;
+}
+
 
 @media screen and (max-width: 980px) {
     nav {
@@ -153,7 +187,7 @@ input[type=submit]:hover {
         width: 65%
     }
 
-    .container img {
+    .row img {
         margin: 10px 30px;
     }
 
@@ -207,6 +241,6 @@ input[type=submit]:hover {
         float: none;
         margin: 0px;
     }
-    .container img {
+    .row img {
         margin-left: 25px;
 }
